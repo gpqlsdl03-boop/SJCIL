@@ -46,7 +46,7 @@ function GoogleLoginContent() {
               className="w-24 h-24 rounded-3xl bg-gradient-to-br from-sky-400 to-blue-600 flex items-center justify-center text-5xl shadow-lg hover:scale-105 transition-transform focus:outline-none"
               aria-label="로고"
             >
-              💰
+              <img src="/sjcillogo.png" alt="로고" className="w-full h-full object-contain p-2" />
             </button>
             <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-foreground">
               신세계중랑장애인자립생활센터
