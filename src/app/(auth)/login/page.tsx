@@ -49,10 +49,10 @@ function GoogleLoginContent() {
               💰
             </button>
             <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-foreground">
-              아름드리꿈터
+              신세계중랑장애인자립생활센터
             </h1>
             <p className="text-base text-muted-foreground leading-relaxed">
-              아름드리꿈터 선생님과 이용자를 위한 앱이에요
+              신세계중랑센터 선생님과 참여자를 위한 앱이에요
             </p>
           </div>
 
@@ -60,8 +60,8 @@ function GoogleLoginContent() {
           {error && (
             <div className="rounded-2xl bg-red-50 border border-red-200 p-4 text-sm text-red-800 leading-relaxed">
               <p className="font-bold mb-1">이 앱에 들어올 수 없는 이메일이에요.</p>
-              <p>아름드리꿈터 선생님이라면 기관 이메일로 로그인해주세요.</p>
-              <p>이용자라면 담당 선생님께 문의해주세요.</p>
+              <p>신세계중랑센터 선생님이라면 기관 이메일로 로그인해주세요.</p>
+              <p>참여자라면 담당 선생님께 문의해주세요.</p>
             </div>
           )}
 
@@ -100,7 +100,7 @@ function GoogleLoginContent() {
 
           {/* 안내 문구 */}
           <div className="text-center text-sm text-zinc-500 leading-relaxed space-y-1">
-            <p>선생님: 기관 이메일(@nowondaycare.org)로 로그인해주세요</p>
+            <p>선생님: 기관 이메일(@sjcil.org)로 로그인해주세요</p>
             <p>이용자: 담당 선생님께 문의해주세요</p>
           </div>
 
@@ -256,7 +256,7 @@ function DemoRoleSelectionContent() {
               💰
             </button>
             <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-foreground">
-              아름드리꿈터
+              신세계중랑장애인자립생활센터
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-md">
               자기주도 개인예산 관리 앱
