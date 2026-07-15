@@ -69,7 +69,8 @@ export function SupporterLayoutClient({
         >
           <span className="text-xl">{mobileMenuOpen ? '✕' : '☰'}</span>
         </button>
-        <h1 className="text-sm font-bold">신세계중랑장애인자립생활센터 관리</h1>
+        <h1 className="text-sm font-bold flex items-center gap-1.5">
+          <img src="/sjcillogo.png" alt="로고" className="w-5 h-5 object-contain" />신세계중랑장애인자립생활센터 관리</h1>
         <div className="w-[44px]" />
       </div>
 
