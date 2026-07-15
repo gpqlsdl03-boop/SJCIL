@@ -43,7 +43,7 @@ function GoogleLoginContent() {
           <div className="flex flex-col items-center gap-4 text-center">
             <button
               onClick={() => setEasterEggOpen(true)}
-              className="w-24 h-24 rounded-3xl bg-gradient-to-br from-sky-400 to-blue-600 flex items-center justify-center text-5xl shadow-lg hover:scale-105 transition-transform focus:outline-none"
+              className="w-24 h-24 rounded-3xl bg-white border border-zinc-200 flex items-center justify-center shadow-lg hover:scale-105 transition-transform focus:outline-none"
               aria-label="로고"
             >
               <img src="/sjcillogo.png" alt="로고" className="w-full h-full object-contain p-2" />
