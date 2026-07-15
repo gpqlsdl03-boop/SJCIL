@@ -31,7 +31,7 @@ function GoogleLoginContent() {
       password,
     });
     if (signInError || !data.user) {
-      setLoginError("이메일 또는 비밀번호가 올바르지 않아요.");
+      setLoginError(signInError?.message || "로그인 실패 (사용자 없음)");
       setLoading(false);
       return;
     }
