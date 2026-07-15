@@ -198,7 +198,7 @@ function GoogleLoginContent() {
             <p className="text-xs text-slate-400 text-right mb-5">— 버트런드 러셀, 《행복의 정복》</p>
             <div className="w-full rounded-xl overflow-hidden mb-5">
               <img
-                src="/images/26oJy.jpg"
+                src="/sjcillogo.png"
                 alt="이스터에그 이미지"
                 className="w-full object-contain max-h-48"
               />
