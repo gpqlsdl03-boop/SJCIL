@@ -74,7 +74,8 @@ export function AdminSidebar({ collapsed = false, onToggle }: AdminSidebarProps)
               <img src="/sjcillogo.png" alt="로고" className="w-7 h-7 object-contain rounded" />
             <h2 className="text-white font-bold text-base tracking-tight leading-tight truncate">신세계중랑장애인자립생활센터</h2>
             <span className="text-slate-400 text-xs font-normal">관리자 뷰 (회계장부)</span>
-          </Link>
+              </div>
+            </Link>
         )}
         {onToggle && (
           <button
