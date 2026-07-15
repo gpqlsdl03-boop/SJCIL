@@ -259,7 +259,7 @@ export default function HomeDashboard({
                         className="relative w-10 h-10 rounded-xl overflow-hidden shrink-0 ring-1 ring-zinc-200 cursor-zoom-in"
                         onClick={() => setLightbox(tx.receipt_image_url)}
                       >
-                        <Image ={tx.receipt_image_url} alt="영수증" fill sizes="40px" className="object-cover" />
+                        <Image src={tx.receipt_image_url} alt="영수증" fill sizes="40px" className="object-cover" />
                       </button>
                     ) : (
                       <div className="flex items-center gap-1.5">
