@@ -257,9 +257,9 @@ export default function HomeDashboard({
                     {tx.receipt_image_url ? (
                       <button
                         className="relative w-10 h-10 rounded-xl overflow-hidden shrink-0 ring-1 ring-zinc-200 cursor-zoom-in"
-                        onClick={() => setLightboxSrc(tx.receipt_image_url)}
+                        onClick={() => setLightbox(tx.receipt_image_url)}
                       >
-                        <Image src={tx.receipt_image_url} alt="영수증" fill sizes="40px" className="object-cover" />
+                        <Image ={tx.receipt_image_url} alt="영수증" fill sizes="40px" className="object-cover" />
                       </button>
                     ) : (
                       <div className="flex items-center gap-1.5">
@@ -362,7 +362,7 @@ export default function HomeDashboard({
       <HelpAutoTrigger sectionKey="home" />
       <header className="flex h-14 items-center justify-between px-4 z-10 sticky top-0 bg-background/90 backdrop-blur-md border-b border-border">
         <Link href="/" className="text-lg font-bold tracking-tight text-foreground hover:opacity-70 transition-opacity">
-         <img src="/sjcillogo.png" alt="로고" className="w-7 h-7 object-contain" />신세계중랑장애인자립생활센터</Link>
+         <img ="/sjcillogo.png" alt="로고" className="w-7 h-7 object-contain" />신세계중랑장애인자립생활센터</Link>
         <div className="flex items-center gap-1">
           {/* 도움말, 궁금한 점, 꾸미기 — 같은 색, 아이콘으로 구분 */}
           <div className="flex items-center bg-zinc-100 rounded-full p-1 gap-0.5">
